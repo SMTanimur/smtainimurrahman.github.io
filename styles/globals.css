@@ -1,0 +1,27 @@
+/* if vs code shows warning , go to setting -> CSS> Lint:Unknown At Rules -> select ignore */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .btn {
+    @apply text-[#dcdcdc] block py-5 px-7 hover:bg-[#272d3d] shadow-md border-2 border-[#adefd1ff] rounded-md
+  }
+  
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #2c4f85 #0f2950;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+
+
