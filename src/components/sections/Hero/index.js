@@ -5,7 +5,7 @@ import ScrollToTop from 'src/hooks/ScrollToTop';
 
 const Hero = () => {
   const resumeURL =
-    'https://drive.google.com/drive/u/0/folders/10zOY41obIDEN_OGUDUh4LVy6_u4PnY1C';
+    'https://drive.google.com/file/d/1pIEvxZEgyoUyM5CM9ZvHs_zHaFVpZ0ig/view?usp=sharing';
   const profilePhoto = 'https://avatars.githubusercontent.com/u/80884335?v=4';
 
   return (
@@ -57,4 +57,4 @@ const Hero = () => {
     </section>
   );
 };
-export default Hero;
+export default Hero
